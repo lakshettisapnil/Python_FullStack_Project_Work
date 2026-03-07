@@ -1,0 +1,16 @@
+a = int(input())
+print(a)
+b = float(input())
+print(b)
+c = input() # the python takes default string type as input 
+print(c)
+s = input().split()
+print(s)
+ls = list(map(int,input().split())) # slpit which converts the string into list and divide the string into parts
+print(ls)
+st = set(map(int,input().split()))
+print(st)
+tp = tuple(map(int,input().split()))
+print(tp)
+dt = eval(input()) # for eval use this for safe import ast ast.literal_eval(input())
+print(dt)
